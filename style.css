@@ -1,0 +1,136 @@
+:root {
+    color-scheme: light;
+    --page-background: #f4f7fb;
+    --brand-color: #3157a4;
+    --brand-dark: #24427f;
+    --text-color: #1f2937;
+    --muted-color: #667085;
+    --card-border: #e7ebf2;
+}
+
+body {
+    min-height: 100vh;
+    background: var(--page-background);
+    color: var(--text-color);
+}
+
+.app-header {
+    color: #fff;
+    background: linear-gradient(120deg, #274786, #4776c5);
+}
+
+.header-eyebrow {
+    color: #dce7ff;
+    font-size: 0.9rem;
+}
+
+.app-content {
+    max-width: 1140px;
+}
+
+.app-card,
+.task-card {
+    border: 1px solid var(--card-border);
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1.5rem rgb(31 41 55 / 5%);
+}
+
+.app-card {
+    position: sticky;
+    top: 1.5rem;
+}
+
+.form-control,
+.form-select {
+    border-color: #d8deea;
+    border-radius: 0.65rem;
+    padding: 0.7rem 0.85rem;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--brand-color);
+    box-shadow: 0 0 0 0.2rem rgb(49 87 164 / 15%);
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--brand-color);
+    --bs-btn-border-color: var(--brand-color);
+    --bs-btn-hover-bg: var(--brand-dark);
+    --bs-btn-hover-border-color: var(--brand-dark);
+    --bs-btn-active-bg: var(--brand-dark);
+    --bs-btn-active-border-color: var(--brand-dark);
+    border-radius: 0.65rem;
+    padding: 0.7rem 1rem;
+    font-weight: 600;
+}
+
+.task-count {
+    color: var(--muted-color);
+    font-size: 0.9rem;
+}
+
+.task-card {
+    height: 100%;
+    background: #fff;
+}
+
+.task-card.is-completed .task-title {
+    color: var(--muted-color);
+    text-decoration: line-through;
+}
+
+.task-description {
+    color: var(--muted-color);
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+.priority-badge,
+.status-badge {
+    display: inline-block;
+    border-radius: 999px;
+    padding: 0.3rem 0.65rem;
+    font-size: 0.78rem;
+    font-weight: 600;
+}
+
+.priority-low {
+    color: #28664b;
+    background: #e5f5ec;
+}
+
+.priority-medium {
+    color: #805d13;
+    background: #fff3d4;
+}
+
+.priority-high {
+    color: #9b3535;
+    background: #fde8e8;
+}
+
+.status-pending {
+    color: #3157a4;
+    background: #e9effb;
+}
+
+.status-completed {
+    color: #28664b;
+    background: #e5f5ec;
+}
+
+.empty-state {
+    border: 1px dashed #cbd3e1;
+    border-radius: 1rem;
+    padding: 2rem;
+    color: var(--muted-color);
+    text-align: center;
+    background: rgb(255 255 255 / 65%);
+}
+
+@media (max-width: 991.98px) {
+    .app-card {
+        position: static;
+    }
+}
