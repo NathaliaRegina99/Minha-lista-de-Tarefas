@@ -5,56 +5,56 @@
 
 ## Objetivo
 
-Desenvolver uma aplicaÁ„o web para permitir que o usu·rio organize suas tarefas di·rias de forma simples e pr·tica.
+Desenvolver uma aplica√ß√£o web para permitir que o usu√°rio organize suas tarefas di√°rias de forma simples e pr√°tica.
 
 ## Funcionalidades
 
 ### Cadastrar tarefas
 
-O usu·rio poder· cadastrar uma tarefa informando:
-- TÌtulo da tarefa.
-- DescriÁ„o (opcional).
-- Prioridade (Baixa, MÈdia ou Alta).
+O usu√°rio poder cadastrar uma tarefa informando:
+- T√≠tulo da tarefa.
+- Descri√ß√£o (opcional).
+- Prioridade (Baixa, M√©dia ou Alta).
 
 ### Listar tarefas
 
-O sistema dever· apresentar todas as tarefas cadastradas, mostrando tÌtulo, descriÁ„o, prioridade e status.
+O sistema dever√° apresentar todas as tarefas cadastradas, mostrando t√≠tulo, descri√ß√£o, prioridade e status.
 
 ### Concluir tarefas
 
-O usu·rio poder· marcar uma tarefa como ConcluÌda ou voltar para Pendente.
+O usu√°rio poder√° marcar uma tarefa como Conclu√≠da ou voltar para Pendente.
 
 ### Excluir tarefas
 
-O usu·rio poder· excluir tarefas cadastradas mediante confirmaÁ„o.
+O usu√°rio poder√° excluir tarefas cadastradas mediante confirma√ß√£o.
 
 ## Dados da tarefa
 
-Cada tarefa dever· possuir:
-- ID ˙nico.
-- TÌtulo.
-- DescriÁ„o.
+Cada tarefa dever√° possuir:
+- ID √∫nico.
+- T√≠tulo.
+- Descri√ß√£oo.
 - Prioridade.
 - Status.
 
 ## Armazenamento
 
-As tarefas ser„o armazenadas no LocalStorage do navegador.
+As tarefas ser√£o armazenadas no LocalStorage do navegador.
 
 ## Interface
 
 - Layout simples e intuitivo.
 - Design responsivo.
-- UtilizaÁ„o do Bootstrap 5.3.
-- Cores agrad·veis e boa organizaÁ„o visual.
+- Utiliza√ß√£o do Bootstrap 5.3.
+- Cores agrad√°veis e boa organiza√ß√£o visual.
 
 ## Checklist de entrega
 
 - [ ] Criar interface principal.
 - [ ] Implementar cadastro de tarefas.
 - [ ] Implementar listagem de tarefas.
-- [ ] Implementar alteraÁ„o de status.
-- [ ] Implementar exclus„o de tarefas.
+- [ ] Implementar altera√ß√£o de status.
+- [ ] Implementar exclus√£o de tarefas.
 - [ ] Implementar armazenamento no LocalStorage.
-- [ ] Validar campos obrigatÛrios.
+- [ ] Validar campos obrigat√≥rios.
 - [ ] Testar as funcionalidades.

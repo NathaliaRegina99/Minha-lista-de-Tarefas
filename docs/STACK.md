@@ -3,9 +3,9 @@
 ## Tecnologias utilizadas
 
 ### Front-end
-- HTML5: estrutura da aplicação.
-- CSS3: estilização da interface.
-- JavaScript: funcionalidades e interações.
+- HTML5: estrutura da aplicaÃ§Ã£o.
+- CSS3: estilizaÃ§Ã£oo da interface.
+- JavaScript: funcionalidades e interaï¿½ï¿½es.
 - Bootstrap 5.3: componentes e responsividade.
 
 ### Ambiente de desenvolvimento
@@ -15,17 +15,17 @@
 
 ### Armazenamento
 - LocalStorage do navegador para salvar as tarefas.
-- Não será utilizado banco de dados externo.
+- NÃ£o ser utilizado banco de dados externo.
 
 ### Testes
 - Testes manuais no navegador.
-- Verificação do cadastro de tarefas.
-- Verificação da alteração de status.
-- Verificação da exclusão de tarefas.
-- Validação dos campos obrigatórios.
+- VerificaÃ§Ã£o do cadastro de tarefas.
+- VerificaÃ§Ã£o da alteraÃ§Ã£oo de status.
+- VerificaÃ§Ã£o da exclusÃ£o de tarefas.
+- ValidaÃ§Ã£o dos campos obrigatÃ³rios.
 
-## Execução
+## ExecuÃ§Ã£o
 
-A aplicação será executada abrindo o arquivo index.html diretamente no navegador.
+A aplicaÃ§Ã£o ser executada abrindo o arquivo index.html diretamente no navegador.
 
-Não será necessário instalar dependências adicionais.
+NÃ£o ser necessÃ¡rio instalar dependencias adicionais.
